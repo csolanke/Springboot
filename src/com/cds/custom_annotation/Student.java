@@ -12,7 +12,6 @@ public class Student {
 	@JsonElement
 	String email;
 	
-	@JsonElement
 	String className;
 	
 	public Student(String name, String studentId, String email, String className) {
